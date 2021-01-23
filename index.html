@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <title>Shower Presentation Engine</title>
+    <title>Презентация-глоссарий</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
+        }
+        .slide p {
+            font-size: 22px;
         }
     </style>
 </head>
 <body class="shower list">
 
     <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
+        <h1>Презентация-глоссарий на тему<br />"Гибкая методология SCRUM"</h1>
+        <p>Елкина Галина, 3ИВТ, РГПУ им. Герцена</p>
     </header>
 
     <section class="slide" id="cover">
-        <h2>Shower Presentation Engine</h2>
-        <p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+        <h2>Презентация-глоссарий на тему <br />"Гибкая методология SCRUM"</h2>
         <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
+            <img class="cover" src="https://miro.medium.com/max/1200/1*ustCp1mr43FTWvRp2KqMuQ.jpeg" alt="SCRUM">
         </figure>
+        <p>Brought by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
         <style>
+            .cover {
+                opacity: 0.3;
+            }
             #cover h2 {
                 margin: 30px 0 0;
-                color: white;
+                color: #444;
                 text-align: center;
                 font-size: 70px;
             }
@@ -38,173 +40,190 @@
             #cover p {
                 margin: 10px 0 0;
                 text-align: center;
-                color: white;
+                color: #666666;
                 font-style: italic;
-                font-size: 20px;
+                font-size: 14px;
             }
 
             #cover p a {
-                color: white;
+                color: #666666;
             }
         </style>
     </section>
 
     <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
+        <h2>Глоссарий</h2>
+        <p>В данной презентации будут рассмотрены такие понятия как:</p>
         <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+        <ul>
+            <li class="next">SCRUM (что же это все-таки такое).</li>
+            <li class="next">Спринт - часть времени SCRUM'а.</li>
+            <li class="next">Scrum-доска, или так самая штука со стикерами.</li>
+            <li class="next">User Story. История любви или не совсем.</li>
+            <li class="next">DoD, или как избежать доработок.</li>
+            <li class="next">Диаграмма сгорания задач - как не сгореть самому.</li>
+            <li class="next">Свиньи и ...</li>
+            <li class="next">Куры (когда кто-то захотел держать зверушку на работе).</li>
+        </ul>
+        <ul>
+            <li class="next">Оценка трудоемкости выполнения пользовательской истории.</li>
+            <li class="next">Velocity - измеряем пульс команды.</li>
+            <li class="next">Журналы пожеланий, или Почти книга жалоб и предложений.</li>
+            <li class="next">Daily SCRUM - давайте поговорим.</li>
+        </ul>
         </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
-    </section>
-
-    <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
-
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
-        </figure>
         <style>
-            #picture h2 {
-                color: white;
+            .slide .next {
+                font-size: 16px;
             }
         </style>
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
+        <h2>SCRUM - методология управления проектами</h2>
+        <p>
+            SCRUM (англ. «схватка» — термин из регби, обозначает стартовое состояние команд перед вбросом мяча)
+            — минимально необходимый набор мероприятий, артефактов, ролей, на которых строится процесс SCRUM-разработки,
+            позволяющий за фиксированные небольшие промежутки времени, называемые спринтами (sprints),
+            предоставлять конечному пользователю работающий продукт с новыми бизнес-возможностями,
+            для которых определен наибольший приоритет.
+        </p>
     </section>
 
     <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
+        <h2>Спринт</h2>
+        <p>
+            Спринт — промежуток времени, достаточный для выполнения запланированной совокупности операций SCRUM,
+            целью которой является создание инкремент бизнес-продукта. Жестко фиксирован по времени.
+            Длительность одного спринта от 1 до 4 недель.
+        </p>
     </section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
+    <section class="slide">
+        <h2>SCRUM-доска</h2>
+        <p>
+            Scrum-доска — это инструмент «опрозрачивания» текущей работы Scrum-команды.
+            Scrum-доска состоит из трех колонок: «сделать» (to-do), «в процессе» (in progress), «сделано» (done).
+            В каждой колонке есть карточки, или стикеры, которые показывают, что и когда нужно сделать.
+            Сейчас многие Scrum-команды переходят на электронные доски, которые отличатся от физических досок тем, что
+            они более портабельны. Например, у такого приложения для досок как Trello есть даже свое мобильное приложение.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>User Story, или Пользовательские истории</h2>
+        <p>
+            Требуемую бизнес-функциональность, которую добавляют в бэклог проекта,
+            часто называют историей. Зачастую история имеет следующую структуру:
+            <br><b>
+            «Будучи пользователем <тип пользователя> я хочу сделать <действие>, чтобы получить <результат>».
+            </b><br>
+            Такая структура удобна тем, что понятна как разработчикам, так и заказчикам.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Definition of Done (DoD)</h2>
+        <p>
+            Это критерий готовности пользовательской истории. Чаще всего эти критиерии оформляют как чек-лист:
+            выполнилось условие - поставь галочку! Использование Definition of Done снижает количество переделок,
+            предотвращая продвижение пользовательских историй, не соответствующих определению, в среды более высокого уровня.
+            Это предотвращает поставку нововведений, которые не соответствуют определению, клиенту или пользователю.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Диаграмма сгорания задач</h2>
+        <p>
+            Также известная как Burndown chart. Это диаграмма, демонстрирующая количество сделанной и оставшейся работы
+            относительно времени на разработку проекта. Данные диаграммы необходимо ежедневно обновлять,
+            чтобы в реальном времени показывать подвижки и издержки в работе над спринтом и проектом,
+            доступные для всех членов SCRUM-команды: менеджер-мастер и владельца продукта.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">
+            А теперь о зверушках!
         </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
+    </section>
 
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
+    <section class="slide">
+        <h2>Свиньи, или Core roles</h2>
+        <p>
+            На самом деле это одни из самых важных людей. «Свиньи» полностью включены в проект и в процесс SCRUM.
+            Менеджер-мастер SCRUM — проводит совещания следит за соблюдением всех принципов SCRUM, разрешает противоречия и защищает команду от отвлекающих факторов.
+            По сути это главный лидер SCRUM процесса. Владелец продукта SCRUM — представляет интересы конечных пользователей и других заинтересованных в продукте сторон.
+            И, конечно, команда разработчиков — кросс-функциональная команда разработчиков проекта,
+            состоящая из специалистов разных профилей: тестировщиков, архитекторов, аналитиков, программистов и т. д. 
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>И Куры, или Ancillary roles</h2>
+        <p>
+            Курами называют людей, которые вовлечены в процесс разработки косвенно или напрямую по ряду причин. <br>
+            Конечные пользователи вовлечены в процесс косвенно, так как они не принимают участия в разработке.
+            Однако они играют очень важную роль на этапе создания задач для бизнеса - они делают спрос. <br>
+            А также есть стейкхолдеры - люди, составляющие уже непосредственно бизнес-задачи для проекта.
+            Но и они приследуют свои цели - получить как можно больше выгоды от реализации проекта.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Оценка трудоемкости выполнения пользовательской истории</h2>
+        <p>
+            Специально разработанная под задачи SCRUM система оценивания трудоемкости поставленной задачи. Эта оценка проводится
+            с использованием специальных карточек среди разработчиков SCRUM-команды. Так задачи оцениваются более объективно и
+            результат получается гораздо более эффективным.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Velocity</h2>
+        <p>
+            Общее количество очков, набранных командой SCRUM за предыдущий спринт. Данная метрика помогает команде понять,
+            сколько историй она может сделать за один спринт.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Журналы пожеланий</h2>
+        <p>
+            Журналы пожеланий есть двух видов: для проекта и для спринта. Качественно они мало чем отличаются.
+            В целом, это списки требований к функциональности, упорядоченные по их степени важности, подлежащих реализации.
+            Также их называют бэклогами. В бэклог проекта попадают задачи пользователей - те самые истории, а в бэклог спринта
+            берут те задачи, которые нужно сделать уже сейчас. Эти журналы пожеланий ведутся владельцем проекта.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Daily SCRUM</h2>
+        <p>
+            Ежедневное SCRUM-совещание - это встреча, что длится максимум 15 минут, предназначна для команды разработчиков,
+            при этом не исключает присутствие владельца продукта и SCRUM мастера. Эта встреча проводится каждый день спринта
+            в одном и том же месте и в одно и то же время. При этом команда разработчиков планирует работу на следующий рабочий день.
+            Это оптимизирует командную совместную работу и продуктивность благодаря проверке работы, что была сделана с момента
+            предыдущего Daily SCRUM и прогнозированию предстоящей работы.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shrink shout">Спасибо за просмотр!</h2>
+        <figure>
+            <img class="cover" src="https://miro.medium.com/max/1200/1*ustCp1mr43FTWvRp2KqMuQ.jpeg" alt="SCRUM">
+        </figure>
+        <style>
+            .cover {
+                opacity: 0.3;
             }
         </style>
     </section>
-
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
 
     <div class="progress"></div>
 
     <script src="shower/shower.js"></script>
-    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+    <!-- Copyright © 2021 Елкина Галина -->
 
 </body>
 </html>
